@@ -13,6 +13,6 @@ Fixing a broken SSH agent in tmux:
 ```
 # First detach from tmux
 env | grep ssh    # copy the result of this line
-# Reattach to temux 
+# Reattach to tmux 
 export  <the line you copied above>    # something like: SSH_AUTH_SOCK=/tmp/ssh-something/agent.12345 
 ```
